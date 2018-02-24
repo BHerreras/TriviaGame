@@ -125,6 +125,8 @@ $(document).ready(function() {
             var radios = document.getElementsByName('quiz' + (i+1));
         $(#correctAnswer).html()
 
+        LITERALLY TRYING ALL THE THING.... SOOO TIRED, GOING TO BED NOW!
+
 
 
 
