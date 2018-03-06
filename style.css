@@ -1,0 +1,33 @@
+body{
+	background: url("../images/deepOcean.jpg");
+	background-attachment: scroll;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: black;
+
+}
+#instructions2 {
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+}
+#instructions {
+	padding:20px;
+	border-width: 0px 0px 10px 0px;
+	color: white;
+	font-weight: bold; 
+	margin-bottom: 30px;
+}
+#time-left{
+	color: white;
+}
+
+#questions{
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#button{
+	text-align: center;
+}
