@@ -4,30 +4,64 @@ body{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-color: black;
+}
+html,
+body {
+	  height: 100%;
+	}
+	
+	
+#wrapper {
+	  width: 960px;
+	  height: 95%;
+	  box-sizing: border-box;
+	  margin: 2.5% auto;
+	  background-color:transparent;
+	}
+	
+#sub-wrapper {
+	  position: relative;
+	  top: 15%;
+	}
+	
+button {
+	  display: block;
+	  width: 50%;
+	  height: 20%;
+	  margin: 0 auto;
+	  font-size: 42px;
+	  cursor: pointer;
+	  background: transparent;
+	  border: 0;
+}
 
+	
+h1 {
+	  padding-top: 2.5%;
+	  font-family: Geo, sans-serif;
+	  font-size: 6.5em;
+	  font-weight: bold;
+	  color:white;
 }
-#instructions2 {
-	font-size: 40px;
-	font-weight: bold;
-	color: white;
+	
+h2 {
+	  margin-bottom: 25px;
+	  font-size: 35px;
 }
-#instructions {
-	padding:20px;
-	border-width: 0px 0px 10px 0px;
-	color: white;
-	font-weight: bold; 
-	margin-bottom: 30px;
+	
+h3 {
+	  margin-bottom: 10px;
+	  font-size: 25px;
 }
-#time-left{
-	color: white;
+	
+#start {
+	  margin-top: 10%;
+	  background:whitesmoke;
+	  border: 2px solid #3e3e44;
 }
-
-#questions{
-	color: white;
-	font-weight: bold;
-	font-size: 15px;
+	
+button:hover {
+	  background: whitesmoke;
+	  border: 2px solid blue;
 }
-
-#button{
-	text-align: center;
-}
+	
